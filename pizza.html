@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>vegetarian Pizzeria</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Vegetarian Pizzeria</h1>
+        <h2>Create your pizza:</h2>
+      </div>
+
+      <div class="container">
+        <form id="begin-order">
+          <div class="form-group begin-order">
+            <label for="customer">Customer name: </label>
+            <input type="text" class="form-control begin-order" id="customer">
+            <button type="submit" class="btn btn-warning">Start your Order </button>
+          </div>
+        </form>
+
+        <div class="order-form">
+
+            <h class="panel-title"><h3 class="order-form">Order ID: <span id="customer"></span></h3></h>
+          </div>
+            <form id="new-pizza">
+              <div class="form-group order-form">
+                <label for="size"><h3>Pizza Size:</h3></label>
+                <br>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Small"> Small</label></div>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Medium" > Medium</label></div>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Large"> Large</label></div>
+                <br><br>
+                <div class="row">
+                <div class="panel-body">
+                  <label for="toppings"><h3>Toppings:</h3></label>
+                  <br>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Spinach"> Spinach</label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Tomatoe"> Tomatoe</label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Sundried Tomatoes"> Sundried Tomatoes</label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Pineapple"> Pineapple</label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Broccoli"> Broccoli </label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Garlic Cloves"> Garlic Cloves</label></div>
+                </div>
+              </div>
+            </div>
+          <button type="submit" class="btn btn-warning">Add to Order</button>
+        </form>
+      </div>
+    </div>
+
+
+      <h1>Thank you for ordering!</h1>
+
+              <h3>Current Order:</h3>
+            </div>
+            <div class="panel-body summary order">
+              <h3><span id="customer" class="summary"></span></h3>
+              <ul id="orderlist" class="summary"></ul>
+              <h3 class="final">Total: $<span id="cost"></span>.00</h3>
+            </div>
+            <br>
+
+          <a class="btn btn-warning" id="checkout">Preview Order</a>
+        </div>
+
+            <h3>Price: $<span id="cost"></span>.00</h3><br>
+            <a class="btn btn-success" id="submit">Submit</a>
+            <a class="btn btn-danger" id="back">Go Back</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

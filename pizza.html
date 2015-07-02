@@ -18,58 +18,56 @@
           <div class="form-group begin-order">
             <label for="customer">Customer name: </label>
             <input type="text" class="form-control begin-order" id="customer">
-            <button type="submit" class="btn btn-warning">Start your Order </button>
+            <button type="submit" class="btn btn-success">Start your Order </button>
           </div>
         </form>
 
         <div class="order-form">
 
-            <h class="panel-title"><h3 class="order-form">Order ID: <span id="customer"></span></h3></h>
+             <class="panel-title"><h3 class="order-form">Order ID: <span id="customer"></span></h3>
           </div>
             <form id="new-pizza">
               <div class="form-group order-form">
                 <label for="size"><h3>Pizza Size:</h3></label>
                 <br>
-                <div class="col-md-2"><label><input type="checkbox" name="size" value="Small"> Small</label></div>
-                <div class="col-md-2"><label><input type="checkbox" name="size" value="Medium" > Medium</label></div>
-                <div class="col-md-2"><label><input type="checkbox" name="size" value="Large"> Large</label></div>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Small"> <h3>Small</h3></label></div>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Medium" > <h3>Medium</h3></label></div>
+                <div class="col-md-2"><label><input type="checkbox" name="size" value="Large"> <h3>Large</h3></label></div>
                 <br><br>
                 <div class="row">
                 <div class="panel-body">
                   <label for="toppings"><h3>Toppings:</h3></label>
                   <br>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Spinach"> Spinach</label></div>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Tomatoe"> Tomatoe</label></div>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Sundried Tomatoes"> Sundried Tomatoes</label></div>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Pineapple"> Pineapple</label></div>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Broccoli"> Broccoli </label></div>
-                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Garlic Cloves"> Garlic Cloves</label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Spinach"> <h3>Spinach</h3></label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Tomatoe"> <h3>Tomatoe</h3></label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Sundried Tomatoes"> <h3>Sundried Tomatoes</h3></label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Pineapple"> <h3>Pineapple</h3></label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Broccoli"> <h3>Broccoli</h3> </label></div>
+                  <div class="col-md-2"><label><input type="checkbox" class="topping" name="toppings" value="Garlic Cloves"> <h3>Garlic Cloves</h3></label></div>
                 </div>
               </div>
             </div>
-          <button type="submit" class="btn btn-warning">Add to Order</button>
+          <button type="submit" class="btn btn-success">Add Pizza</button>
         </form>
       </div>
     </div>
+      <div class="final">
+      <h2>Thank you for ordering!</h2>
+    </div>
 
+      <h3>Current Order:</h3>
+    </div>
+    <div class="CONTAINER">
+      <h2><span id="contact" class="summary"></span></h2>
+      <ul id="orderlist" class="summary"></ul>
+      <h2 class="final">Total: $<span id="cost"></span>.00</h2>
+    </div>
+    <br>
+          <div class="container">
+          <a class="btn btn-success" id="checkout">Preview Order</a>
 
-      <h1>Thank you for ordering!</h1>
-
-              <h3>Current Order:</h3>
-            </div>
-            <div class="panel-body summary order">
-              <h3><span id="customer" class="summary"></span></h3>
-              <ul id="orderlist" class="summary"></ul>
-              <h3 class="final">Total: $<span id="cost"></span>.00</h3>
-            </div>
-            <br>
-
-          <a class="btn btn-warning" id="checkout">Preview Order</a>
-        </div>
-
-            <h3>Price: $<span id="cost"></span>.00</h3><br>
             <a class="btn btn-success" id="submit">Submit</a>
-            <a class="btn btn-danger" id="back">Go Back</a>
+            <a href="Pizza.html"><so>Start over</so></a>
           </div>
         </div>
       </div>

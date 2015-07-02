@@ -1,0 +1,38 @@
+body {
+  background-image: url(http://www.foodclipart.com/food_clipart_images/pizza_pie_logo_or_icon_in_colors_of_italy_0515-1104-2313-5443_SMU.jpg);
+background-repeat: no-repeat;
+background-size: 1000px;
+background-position: center;
+}
+
+h1 {
+  color: #308330;
+  text-align: center;
+  font-size: 100px;
+}
+
+.heading {
+  text-align: center;
+}
+
+h2 {
+  color: #00FF00;
+}
+
+h3 {
+  color: #308330;
+}
+
+label {
+  color: #00FF00;
+}
+
+ul {
+  color:  red;
+  font-size: 40px;
+}
+
+so {
+  color: #308330;
+  font-size: 20px;
+}

@@ -70,11 +70,6 @@ $(document).ready(function(){
     $("ul#orderlist").append("<li>" + newPizza.size + " pizza with: Cheese, " + newPizza.toppings.join(', ') + "  -  $" + newPizza.findCost() + "</li>");
   });
 
-  $("#addmore").click(function(){
-    $(".order-form").show();
-    $(".summary").hide();
-  });
-
   $("#checkout").click(function(){
     $(".checkout-screen").show();
     $(".prompt").hide();
@@ -88,14 +83,6 @@ $(document).ready(function(){
     $(".order").hide();
     $(".finalprompt").hide();
     $(".checkout-screen").hide();
-  })
-
-  $("#back").click(function(){
-    $(".prompt").show();
-    $(".final").hide();
-    $(".checkout-screen").show();
-    $(".finalprompt").hide();
-    $("span#cost").text(newOrder.checkout());
-    });
+  });
   });
 });

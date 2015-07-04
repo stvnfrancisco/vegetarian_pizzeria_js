@@ -1,4 +1,4 @@
-function Pizza(size, toppings, cost){
+function Pizza(size){
   this.size = size
   this.toppings = []
   this.cost = 0
@@ -20,12 +20,7 @@ Pizza.prototype.findCost = function(){
   return this.cost;
 }
 
-function Topping(name, cost){
-  this.name = name
-  this.cost = 1
-}
-
-function Order(name, pizzas, total){
+function Order(name){
   this.pizzas = [];
   this.total = 0;
   this.name = name;

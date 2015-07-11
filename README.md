@@ -2,7 +2,7 @@ Title: Vegetarian Pizzeria
 <br>
 by: Steven Francisco
 
-This app is lets the user create pizza orders. It adjusts the price depending on the amount of toppings selected.
+This app lets the user create pizza orders. It adjusts the price depending on the amount of toppings selected.
 
 Built using jquery-1.11.3.js
 
